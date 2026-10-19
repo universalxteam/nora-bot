@@ -10,9 +10,9 @@ from aiogram.types import (
 from google import genai
 
 # ========== Config ==========
-BOT_TOKEN = "8907069405:AAEY3nWaLYUqprr4pgomVwtwwrCXxFl6FRc"
-GEMINI_KEY = "AQ.Ab8RN6JJd4kQGJKZaDtukptp5DJO_vFvKASdsUX2DhHcwGqedA"
-WEBAPP_URL = "https://billionaires-live-urdywyv5.agent.mira.tg"
+BOT_TOKEN = ""
+GEMINI_KEY = ""
+WEBAPP_URL = ""
 
 # Gemini sozlash — yangi SDK
 client = genai.Client(api_key=GEMINI_KEY)
